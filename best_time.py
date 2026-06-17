@@ -26,6 +26,12 @@ Constraints:
 0 <= prices[i] <= 104
 
 '''
+
+# Approach: Track minimum price and maximum profit in one pass.
+# For each price, update minimum if lower, then check if selling today beats max profit.
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class bestime:
     def stock(prices):
         minPrice = float('inf')

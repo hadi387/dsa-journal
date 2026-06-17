@@ -35,6 +35,11 @@ Follow-up
 Can you solve the problem in O(n) time complexity?
 '''
 
+# Approach: Store seen numbers in a dictionary.
+# If we see a number already in the dictionary, return True.
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Duplicate:
     def containsduplicate(nums):
         seen = set()

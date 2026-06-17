@@ -24,6 +24,10 @@ Constraints:
 
 '''
 
+# Approach: Count frequency of each number using dictionary. Sort by frequency and return top k.
+# Time Complexity: O(n log n)
+# Space Complexity: O(n)
+
 class frequent:
     def topKFrequent(self, nums, k):
         store = {}

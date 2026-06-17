@@ -26,6 +26,10 @@ strs[i] is made up of lowercase English letters.
 
 '''
 
+# Approach: Sort each word's letters as a key. Group words with same key together.
+# Time Complexity: O(n * k log k) where k is max string length
+# Space Complexity: O(n)
+
 class Solution:
     def groupanagrams (str):
         strs_stores = {}
