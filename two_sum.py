@@ -38,7 +38,7 @@ Follow-up
 
 Can you come up with an algorithm that runs in less than O(n²) time complexity? '''
 
-# Approach: Two nested loops checking every pair of numbers.
+
 # If they add up to target, return their indices.
 # Time Complexity: O(n²)
 # Space Complexity: O(1)
